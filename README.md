@@ -1,5 +1,5 @@
   
-#  SPRING api MongoDB e MySQL
+  #  SPRING api MongoDB e MySQL
 
 ## 🔗 Links
 
@@ -12,11 +12,37 @@
 **Client:** Postman
 **Backend softwares:** Java 17, IntelliJ
 
-# Get Started 🚀 
-**First endpoint, go to localhost:8080/home**
+
+## Get Started 🚀 
+
+### 1. Create Spring Project  ⚡️
+- https://start.spring.io/ 
+    - Spring Web 
+    - Spring Boot DevTools Developer Tools
+
+### 2. View 🌐
+
+ **First endpoint, go to localhost:8080/home**
 
 ![App Screenshot](images/alter.png) 
 
 ![App Screenshot](images/navegador.png) 
 
 ![App Screenshot](images/postman.png)  
+
+### 2. Actuator in the scene 🔬
+
+ **Include the actuator dependency in pom.xml**
+
+````
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+````
+For more information, please visit the website below:
+- https://mvnrepository.com/
+
+- Now, go to localhost:8080/actuator**
+
+![App Screenshot](images/actuator.png)
