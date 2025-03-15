@@ -18,9 +18,7 @@ target/
 *.iws
 *.iml
 *.ipr
-*.md
-images/
-/images/
+
 
 
 ### NetBeans ###
@@ -30,7 +28,6 @@ images/
 /nbdist/
 /.nb-gradle/
 build/
-.images/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
