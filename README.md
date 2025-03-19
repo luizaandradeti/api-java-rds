@@ -48,3 +48,21 @@ For more information, please visit the website below:
 ![App Screenshot](images/actuator.png)
 - Improve details:
 ![App Screenshot](images/details.png)
+
+### Database setup
+
+**add these libraries in pom.xml:**
+
+````
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-jpa</artifactId>
+    <version>3.4.4</version>
+</dependency>
+````
+
