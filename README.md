@@ -46,3 +46,5 @@ For more information, please visit the website below:
 - Now, go to localhost:8080/actuator**
 
 ![App Screenshot](images/actuator.png)
+- Improve details:
+![App Screenshot](images/details.png)
