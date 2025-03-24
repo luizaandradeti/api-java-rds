@@ -94,7 +94,7 @@ For more information, please visit the Maven website:
 
 ````
 
-*Please first test the connection to the database in DBeaver, with the dev password provided to you by the cloud administrator*
+*First test the connection to the database in DBeaver, with the dev password provided to you by the cloud administrator (*non production enviroment)*
 
 ![App Screenshot](images/connect-b.0249a5354c7767138c0efabeef2a2cec0104f084.png)<center><font size="1">https://aws.amazon.com/pt/getting-started/hands-on/create-mysql-db/</font></center>
 
@@ -108,6 +108,8 @@ For more information, please visit the Maven website:
 
 ![App Screenshot](images/conexao2.png)
 
+*To increase security, use resources such as:*
+https://repost.aws/pt/articles/AR_1zknIXsTzaZ-bssRiHfJw/how-to-securely-manage-secrets-in-java-applications-using-aws-secrets-manager
 
 ### 5.  Micrometer with AWS Cloud Watch -><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg" /></a></td>
 	
