@@ -94,7 +94,7 @@ For more information, please visit the Maven website:
 
 ````
 
-*First test the connection to the database in DBeaver, with the dev password provided to you by the cloud administrator (*non production enviroment)*
+*First test the connection to the database in DBeaver, with the dev password provided to you by the cloud administrator(non production environment)*
 
 ![App Screenshot](images/connect-b.0249a5354c7767138c0efabeef2a2cec0104f084.png)<center><font size="1">https://aws.amazon.com/pt/getting-started/hands-on/create-mysql-db/</font></center>
 
