@@ -220,8 +220,8 @@ For more information, please visit the Maven website:
 ![App Screenshot](images/conexao2.png)
 
 *To increase security, use resources such as:*
-https://repost.aws/pt/articles/AR_1zknIXsTzaZ-bssRiHfJw/how-to-securely-manage-secrets-in-java-applications-using-aws-secrets-manager
-https://docs.aws.amazon.com/pt_br/AmazonRDS/latest/UserGuide/rds-secrets-manager.html
+- https://repost.aws/pt/articles/AR_1zknIXsTzaZ-bssRiHfJw/how-to-securely-manage-secrets-in-java-applications-using-aws-secrets-manager
+- https://docs.aws.amazon.com/pt_br/AmazonRDS/latest/UserGuide/rds-secrets-manager.html
 
 ### 5.  Micrometer with AWS Cloud Watch -><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg" /></a></td>
 	
