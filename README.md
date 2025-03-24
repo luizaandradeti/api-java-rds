@@ -1,5 +1,5 @@
 
-  <h2 align="center"> Spring api MongoDB e MySQL</h2>
+  <h2 align="center"> Spring API MongoDB e MySQL</h2> 
 <center>
 
 [![My Skills](https://skillicons.dev/icons?i=aws,java,mysql,postman,vscode,spring&perline=3)](https://skillicons.dev)
@@ -45,19 +45,19 @@
 
 ### 3. Actuator in the scene 🔬
 
- **Include the actuator dependency in pom.xml**
+ *Include the actuator dependency in pom.xml*
 
 [![dependency - JPA](https://img.shields.io/badge/Dependency-Actuator-turquoise )](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator/1.2.1.RELEASE)
 ````
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
 ````
-For more information, please visit the website below:
-- https://mvnrepository.com/
+For more information, please visit the Maven website:
+	- https://mvnrepository.com/
 
-- Now, go to localhost:8080/actuator**
+- Now, go to localhost:8080/actuator
 
 ![App Screenshot](images/actuator.png)
 
@@ -65,32 +65,49 @@ For more information, please visit the website below:
 
 ### 4. Connection with RDS Database 😄   
 
-*Include the JPA and MySQL lib in the pom xml, to connect the api to the AWS database and perform queries and data persistence via ORM*
+*Include the JPA and MySQL lib in the pom xml, to connect the api to the AWS database and perform queries and data persistence through ORM*
 
-
-[![dependency - JPA](https://img.shields.io/badge/Dependency-JPA-red)](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa)
 [![dependency - MySql](https://img.shields.io/badge/Dependency-MySQL-yellow)]([https://mvnrepository.com/search?q=MYSQL)
 
+[![dependency - PersistenceJPA](https://img.shields.io/badge/Dependency-JPA-blue)](https://mvnrepository.com/artifact/jakarta.persistence/jakarta.persistence-api/3.2.0)
+
+[![dependency - JPA](https://img.shields.io/badge/Dependency-DataPersistence-red)](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test/3.4.4)
+
+
 
 ````
-<dependency>
-	<groupId>mysql</groupId>
-	<artifactId>mysql-connector-java</artifactId>
-	<version>8.0.33</version>
-</dependency>
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>8.0.33</version>
+	</dependency>
 
-<dependency>
-	<groupId>org.springframework.data</groupId>
-	<artifactId>spring-data-jpa</artifactId>
-	<version>3.4.4</version>
-</dependency>
+	<dependency>
+		<groupId>jakarta.persistence</groupId>
+		<artifactId>jakarta.persistence-api</artifactId>
+	</dependency>
+
+	<dependency>
+   		<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
 
 ````
+
+*Please first test the connection to the database in DBeaver, with the dev password provided to you by the cloud administrator*
+
 ![App Screenshot](images/connect-b.0249a5354c7767138c0efabeef2a2cec0104f084.png)<center><font size="1">https://aws.amazon.com/pt/getting-started/hands-on/create-mysql-db/</font></center>
 
-- Set your credentials in the application.properties file
+![App Screenshot](images/conexao1.png)
+
+*Now, Set AWS RDS credentials in the application.properties file, 
 
 ![App Screenshot](images/DATABASEAPPLICATION.png)
+
+*create the table and jpa classes (product class and repository interface) and execute*
+
+![App Screenshot](images/conexao2.png)
+
 
 ### 5.  Micrometer with AWS Cloud Watch -><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg" /></a></td>
 	
