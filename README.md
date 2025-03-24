@@ -229,8 +229,3 @@ https://docs.aws.amazon.com/pt_br/AmazonRDS/latest/UserGuide/rds-secrets-manager
 
 [![Generic badge](https://img.shields.io/badge/status-TODO-yellow.svg)](/#/)
 
-### 5.  Micrometer with AWS Cloud Watch -><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg" /></a></td>
-	
-
-
-[![Generic badge](https://img.shields.io/badge/status-TODO-yellow.svg)](/#/)
